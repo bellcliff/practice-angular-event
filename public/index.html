@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="libs/angular/angular.js"></script>
+</head>
+
+<body ng-app="mytime">
+<div ng-controller="C1 as c">{{c.date | date: 'HH:mm:ss'}}</div>
+<div ng-controller="C2 as c">{{c.date | date: 'HH:mm:ss'}}</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
